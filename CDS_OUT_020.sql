@@ -1,4 +1,4 @@
-SELECT TOP 1000
+SELECT 
 '020'  AS [CDS_Type],
 '010' AS [CDS_Protocol_ID],
 'BRA900' + [attendance_number] AS [CDS_Unique_ID],
